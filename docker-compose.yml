@@ -17,7 +17,6 @@ services:
     container_name: quotes-api
     build:
       context: ./
-      target: production
     image: quotes-api
     depends_on:
       - db
